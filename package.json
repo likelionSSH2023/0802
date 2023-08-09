@@ -2,7 +2,7 @@
   "name": "fe-netflix-clone-coding",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://shimseohyun.github.io/likelionSSH2023/0802/",
+  "homepage": "https://likelionSSH2023.github.io/0802/",
   "type": "module",
   "scripts": {
     "dev": "vite",
