@@ -1,4 +1,4 @@
-import styled, { keyframes } from 'styled-components';
+import styled, { keyframes } from "styled-components";
 
 // nav
 export const Container = styled.nav`
@@ -13,22 +13,22 @@ export const Container = styled.nav`
   align-items: center;
   transition-timing-function: ease-in;
   transition: all 0.5s;
-  background-color: ${props=>props.show == 'true' ? '#111' : null};
-`
+  background-color: ${(props) => (props.show == "true" ? "#111" : null)};
+`;
 
 export const LogoImg = styled.img`
   left: 40px;
   width: 80px;
   object-fit: contain;
   cursor: pointer;
-`
+`;
 
 export const UserImg = styled.img`
   position: fixed;
   right: 40px;
   width: 30px;
   object-fit: contain;
-`
+`;
 
 // footer
 
@@ -91,8 +91,8 @@ export const FooterLink = styled.a`
 `;
 
 export const FooterDescContainer = styled.div`
-  margin-top: 30px 
-  
+  margin-top: 30px;
+
   /* @media (max-width: 768px) {
     margin-top: 20px;
   } */
@@ -102,4 +102,15 @@ export const FooterDescRights = styled.h2`
   color: white;
   font-size: 14px;
   text-align: center;
+`;
+
+export const NavInput = styled.input`
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%, 0);
+  background-color: rgba(0, 0, 0, 0.637);
+  border-radius: 5px;
+  color: white;
+  padding: 5px;
+  border: none;
 `;
